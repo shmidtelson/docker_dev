@@ -19,7 +19,7 @@ services:
 
   mariadb:
     build: docker/mysql
-    container_name: LEMP_mariaDB2
+    container_name: LEMP_mariaDB
     ports:
       - "3306:3306"
     depends_on:
