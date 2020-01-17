@@ -1,4 +1,4 @@
-FROM php:7.2.15-fpm-alpine
+FROM php:7-fpm-alpine
 
 RUN docker-php-source extract && \
   apk add --update --no-cache autoconf g++ make libzip-dev libpng-dev && \
